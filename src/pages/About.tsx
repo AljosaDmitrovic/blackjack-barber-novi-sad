@@ -79,7 +79,7 @@ export default function About() {
             <div className="section-divider my-6 w-24" />
             <p className="text-muted-foreground leading-relaxed text-[15px]">{t('about_text2')}</p>
             <Link
-              to="/reservation"
+              to="/app"
               className="btn-gold inline-flex mt-8 px-8 py-3.5 text-sm tracking-wider"
             >
               {t('book_now')} <ArrowRight size={15} />

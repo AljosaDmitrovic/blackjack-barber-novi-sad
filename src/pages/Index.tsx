@@ -76,7 +76,7 @@ export default function Index() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            <Link to="/reservation" className="btn-gold px-8 py-4 text-sm tracking-wider">
+            <Link to="/app" className="btn-gold px-8 py-4 text-sm tracking-wider">
               {t('hero_btn_book')}
               <ArrowRight size={16} />
             </Link>
@@ -185,7 +185,7 @@ export default function Index() {
           </h2>
           <p className="text-muted-foreground mb-8 max-w-md mx-auto text-sm">{t('hero_tagline')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/reservation" className="btn-gold px-10 py-4 text-sm tracking-wider">
+            <Link to="/app" className="btn-gold px-10 py-4 text-sm tracking-wider">
               {t('hero_btn_book')} <ArrowRight size={15} />
             </Link>
             <a href="tel:+38164114677" className="btn-outline-gold px-10 py-4 text-sm tracking-wider">

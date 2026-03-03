@@ -10,7 +10,7 @@ export default function Footer() {
     { path: '/', label: t('nav_home') },
     { path: '/about', label: t('nav_about') },
     { path: '/services', label: t('nav_services') },
-    { path: '/reservation', label: t('nav_reservation') },
+    { path: '/app', label: t('nav_app') },
     { path: '/contact', label: t('nav_contact') },
   ];
 

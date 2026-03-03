@@ -21,7 +21,7 @@ export default function Header() {
     { path: '/', label: t('nav_home') },
     { path: '/about', label: t('nav_about') },
     { path: '/services', label: t('nav_services') },
-    { path: '/reservation', label: t('nav_reservation') },
+    { path: '/app', label: t('nav_app') },
     { path: '/contact', label: t('nav_contact') },
   ];
 
@@ -90,7 +90,7 @@ export default function Header() {
 
             {/* Book CTA (desktop) */}
             <Link
-              to="/reservation"
+              to="/app"
               className="hidden md:inline-flex btn-gold px-5 py-2 text-xs tracking-wider"
             >
               {t('book_now')}
@@ -126,7 +126,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              to="/reservation"
+              to="/app"
               className="btn-gold mt-3 py-3 text-sm tracking-wider text-center"
             >
               {t('book_now')}

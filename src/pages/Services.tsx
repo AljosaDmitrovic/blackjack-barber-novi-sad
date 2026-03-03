@@ -47,7 +47,7 @@ export default function Services() {
                   )}
                 </div>
                 <Link
-                  to="/reservation"
+                  to="/app"
                   className="btn-gold px-4 py-2 text-xs tracking-wider"
                 >
                   {t('services_book')} <ArrowRight size={13} />
