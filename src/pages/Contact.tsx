@@ -106,7 +106,7 @@ export default function Contact() {
           {/* Contact Form + Map */}
           <div className="space-y-8">
             {/* Form */}
-            <div className="card-premium p-6 sm:p-8">
+            {/* <div className="card-premium p-6 sm:p-8">
               <h3 className="font-['Playfair_Display'] text-xl font-semibold mb-6">{t('contact_form_title')}</h3>
               {sent ? (
                 <div className="text-center py-8">
@@ -155,10 +155,10 @@ export default function Contact() {
                   </button>
                 </form>
               )}
-            </div>
+            </div> */}
 
             {/* Map */}
-            <div className="rounded-lg overflow-hidden border border-border" style={{ height: 260 }}>
+            <div className="rounded-lg overflow-hidden border border-border" style={{ height: 755 }}>
               <iframe
                 title="Black Jack 021 Mapa"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.123!2d19.8335!3d45.2550!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b102f74eb7f49%3A0x49ab9de96b7ad01d!2sLaze%20Kosti%C4%87a%205%2C%20Novi%20Sad!5e0!3m2!1ssr!2srs!4v1700000000000!5m2!1ssr!2srs"
