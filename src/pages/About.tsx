@@ -34,7 +34,7 @@ export default function About() {
               <div
                 className="rounded-lg overflow-hidden"
                 style={{
-                  background: 'linear-gradient(135deg, hsl(0 0% 8%), hsl(43 30% 15%))',
+                  background: 'linear-gradient(135deg, hsl(0 0% 8%), hsl(40 8% 18%))',
                   padding: '3px',
                 }}
               >
@@ -42,7 +42,7 @@ export default function About() {
                   className="rounded-md w-full"
                   style={{
                     height: 420,
-                    background: 'linear-gradient(135deg, hsl(0 0% 7%) 0%, hsl(43 20% 10%) 100%)',
+                    background: 'linear-gradient(135deg, hsl(0 0% 7%) 0%, hsl(40 6% 11%) 100%)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
