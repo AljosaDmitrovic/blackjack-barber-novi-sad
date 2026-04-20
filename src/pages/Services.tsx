@@ -1,4 +1,4 @@
-import { ExternalLink, ArrowRight, Scissors, ScissorsLineDashed } from 'lucide-react';
+import { ArrowRight, Scissors, ScissorsLineDashed } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '@/hooks/useLanguage';
 
@@ -56,20 +56,6 @@ export default function Services() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* External link */}
-        <div className="text-center">
-          <div className="section-divider mb-10 max-w-sm mx-auto" />
-          <a
-            href="https://link-to.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-outline-gold inline-flex px-8 py-4 text-sm tracking-wider"
-          >
-            {t('services_btn_external')}
-            <ExternalLink size={15} />
-          </a>
         </div>
       </div>
     </main>

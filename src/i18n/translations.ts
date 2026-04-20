@@ -51,7 +51,6 @@ export const translations = {
     // Services
     services_title: 'Nase usluge',
     services_subtitle: 'Svaka usluga, savrsena do detalja',
-    services_btn_external: 'Pogledaj sve usluge i proizvode',
     services_book: 'Rezervisi',
     service1_name: 'Klasicno sisanje',
     service1_desc: 'Precizno sisanje prilagodeno vasem stilu i obliku lica.',
@@ -153,7 +152,6 @@ export const translations = {
     // Services
     services_title: 'Our Services',
     services_subtitle: 'Every service, perfect to the detail',
-    services_btn_external: 'View all services & products',
     services_book: 'Book',
     service1_name: 'Classic Haircut',
     service1_desc: 'A precise haircut tailored to your style and face shape.',
