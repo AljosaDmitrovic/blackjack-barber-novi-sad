@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Scissors, MapPin, Phone, Clock } from 'lucide-react';
+import { MapPin, Phone, Clock } from 'lucide-react';
+import BrandLogo from '@/components/BrandLogo';
 import { useLanguage } from '@/hooks/useLanguage';
 
 export default function Footer() {
@@ -20,11 +21,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-8 h-8 rounded-sm gold-gradient flex items-center justify-center">
-                <Scissors size={15} className="text-background rotate-45" />
-              </div>
-              <div>
+            <div className="flex items-center gap-3 mb-4">
+              <BrandLogo className="h-9 w-auto" />
+              <div className="min-w-0">
                 <div className="font-['Playfair_Display'] font-bold text-base gold-text">Black Jack 021</div>
                 <div className="text-[10px] tracking-[0.18em] text-muted-foreground uppercase">Premium Barbershop</div>
               </div>

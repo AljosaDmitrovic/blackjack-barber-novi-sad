@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Scissors } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import BrandLogo from '@/components/BrandLogo';
 import { useLanguage } from '@/hooks/useLanguage';
 
 export default function Header() {
@@ -34,11 +35,9 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2.5 group">
-            <div className="w-9 h-9 rounded-sm gold-gradient flex items-center justify-center">
-              <Scissors size={18} className="text-background rotate-45" />
-            </div>
-            <div>
+          <Link to="/" className="flex items-center gap-3 group">
+            <BrandLogo className="h-10 w-auto opacity-95 group-hover:opacity-100 transition-opacity" />
+            <div className="min-w-0">
               <div className="font-['Playfair_Display'] font-bold text-lg leading-none gold-text">
                 Black Jack
               </div>
