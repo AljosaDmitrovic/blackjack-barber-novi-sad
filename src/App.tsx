@@ -16,13 +16,16 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+/** Must match `base` in vite.config.ts — keeps router in sync with deployed path */
+const routerBasename = import.meta.env.BASE_URL.replace(/\/$/, '') || '/';
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <LanguageProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/blackjack-barber-novi-sad">
+        <BrowserRouter basename={routerBasename}>
           <Header />
           <Routes>
             <Route path="/" element={<Index />} />
