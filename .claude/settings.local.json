@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/aljosa/Desktop/Projects/blackjack021.com status)",
+      "Bash(git clone *)",
+      "Bash(ls /Applications/ | grep -i chrom; ls /Applications/ | grep -i safari)",
+      "Read(//Applications/**)",
+      "Bash(cp src/assets/blackjack-vektor.svg /private/tmp/claude-502/-Users-aljosa-Desktop-Projects-blackjack021-com/880878e7-0027-41df-9ebf-ee919adefd8a/scratchpad/logo.svg)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --default-background-color=00000000 --window-size=256,256 --screenshot=/private/tmp/claude-502/-Users-aljosa-Desktop-Projects-blackjack021-com/880878e7-0027-41df-9ebf-ee919adefd8a/scratchpad/favicon.png file:///private/tmp/claude-502/-Users-aljosa-Desktop-Projects-blackjack021-com/880878e7-0027-41df-9ebf-ee919adefd8a/scratchpad/fav.html)",
+      "Bash(rm public/logo.svg)"
+    ],
+    "additionalDirectories": [
+      "/Users/aljosa/Desktop/Projects/blackjack021.com/public"
+    ]
+  }
+}

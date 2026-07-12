@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Clock } from 'lucide-react';
 import BrandLogo from '@/components/BrandLogo';
+import SocialLinks from '@/components/SocialLinks';
 import { useLanguage } from '@/hooks/useLanguage';
 
 export default function Footer() {
@@ -31,6 +32,7 @@ export default function Footer() {
             <p className="text-muted-foreground text-sm leading-relaxed font-light italic">
               "{t('footer_tagline')}"
             </p>
+            <SocialLinks className="mt-5" />
           </div>
 
           {/* Links */}
@@ -68,7 +70,7 @@ export default function Footer() {
                 <Clock size={15} className="text-primary mt-0.5 shrink-0" />
                 <div className="text-sm text-muted-foreground">
                   <div>Pon–Pet: 10:00–18:00</div>
-                  <div>Sub: 10:00–16:00</div>
+                  <div>Sub–Ned: Zatvoreno</div>
                 </div>
               </li>
             </ul>

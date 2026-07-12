@@ -1,5 +1,6 @@
 import { ArrowRight, Award, Gem, Users, Coffee, Clock, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import BrandLogo from '@/components/BrandLogo';
 import { useLanguage } from '@/hooks/useLanguage';
 
 const whyItems = [
@@ -51,9 +52,9 @@ export default function About() {
                   }}
                 >
                   <div
-                    className="w-20 h-20 rounded-full gold-gradient flex items-center justify-center"
+                    className="w-20 h-20 rounded-full gold-gradient flex items-center justify-center overflow-hidden"
                   >
-                    <span className="font-['Playfair_Display'] text-2xl font-bold text-background">BJ</span>
+                    <BrandLogo className="h-14 w-auto object-center" />
                   </div>
                   <p className="text-primary font-['Playfair_Display'] text-xl font-semibold">Black Jack 021</p>
                   <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase">Premium Barbershop · Novi Sad</p>

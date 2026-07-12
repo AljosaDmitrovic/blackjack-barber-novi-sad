@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { MapPin, Phone, Clock, Send, Check } from 'lucide-react';
+import { MapPin, Phone, Clock, Send, Check, Share2 } from 'lucide-react';
+import SocialLinks from '@/components/SocialLinks';
 import { useLanguage } from '@/hooks/useLanguage';
 
 const hours = [
@@ -8,7 +9,7 @@ const hours = [
   { key: 'hours_wed', time: '10:00–18:00' },
   { key: 'hours_thu', time: '10:00–18:00' },
   { key: 'hours_fri', time: '10:00–18:00' },
-  { key: 'hours_sat', time: '10:00–16:00' },
+  { key: 'hours_sat', time: null },
   { key: 'hours_sun', time: null },
 ] as const;
 
@@ -100,6 +101,17 @@ export default function Contact() {
                   </div>
                 ))}
               </div>
+            </div>
+
+            {/* Social */}
+            <div className="card-premium p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-9 h-9 rounded-sm gold-gradient flex items-center justify-center shrink-0">
+                  <Share2 size={16} className="text-background" />
+                </div>
+                <h3 className="font-['Playfair_Display'] text-lg font-semibold">{t('contact_social')}</h3>
+              </div>
+              <SocialLinks className="ml-12" />
             </div>
           </div>
 

@@ -10,7 +10,7 @@ const hours = [
   { key: 'hours_wed', time: '10:00–18:00', day: 3 },
   { key: 'hours_thu', time: '10:00–18:00', day: 4 },
   { key: 'hours_fri', time: '10:00–18:00', day: 5 },
-  { key: 'hours_sat', time: '10:00–16:00', day: 6 },
+  { key: 'hours_sat', time: null, day: 6 },
   { key: 'hours_sun', time: null, day: 0 },
 ] as const;
 
@@ -42,7 +42,12 @@ export default function Index() {
               ratingValue: '5.0',
               bestRating: '5',
             },
-            openingHours: ['Mo-Fr 10:00-18:00', 'Sa 10:00-16:00'],
+            openingHours: ['Mo-Fr 10:00-18:00'],
+            sameAs: [
+              'https://www.instagram.com/blackjack021ns',
+              'https://www.tiktok.com/@blackjack021ns',
+              'https://www.facebook.com/share/198ckuFLzi/',
+            ],
             url: window.location.origin,
             priceRange: '$$',
           }),
