@@ -51,11 +51,7 @@ export default function About() {
                     gap: '1rem',
                   }}
                 >
-                  <div
-                    className="w-20 h-20 rounded-full gold-gradient flex items-center justify-center overflow-hidden"
-                  >
-                    <BrandLogo className="h-14 w-auto object-center" />
-                  </div>
+                  <BrandLogo className="h-32 w-auto object-center" />
                   <p className="text-primary font-['Playfair_Display'] text-xl font-semibold">Black Jack 021</p>
                   <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase">Premium Barbershop · Novi Sad</p>
                   <div className="flex gap-1 mt-2">
